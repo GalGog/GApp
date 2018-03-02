@@ -16,7 +16,6 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { HeroService } from './hero.service';
 import { MessageService } from './message.service';
 import { MessagesComponent } from './messages/messages.component';
-import { SearchComponentComponent } from './search-component/search-component.component';
 
 @NgModule({
   imports: [
@@ -38,8 +37,7 @@ import { SearchComponentComponent } from './search-component/search-component.co
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent,
-    SearchComponentComponent
+    HeroSearchComponent
   ],
   providers: [ HeroService, MessageService ],
   bootstrap: [ AppComponent ]
